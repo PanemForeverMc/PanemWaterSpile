@@ -1,0 +1,13 @@
+name: WaterSpile
+version: ${project.version}
+main: com.ashawsolutions.waterspile.WaterSpile
+api-version: 1.16
+prefix: WaterSpile
+authors: [ Anomoly ]
+description: Adds water spile item into game.
+website: htts://ashawsolutions.com
+commands:
+  waterspile:
+    description: Allows gamemakers to set the ability to use water spiles on and off.
+    usage: /waterspile [on/off]
+    permission: panemforever.gamemaker,
