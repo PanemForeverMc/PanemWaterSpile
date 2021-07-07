@@ -22,7 +22,8 @@ public class CooldownManager {
                     return secondsLeft;
                 }
             }
-        }catch (Exception ex){
+        }
+        catch (Exception ex){
 
         }
 

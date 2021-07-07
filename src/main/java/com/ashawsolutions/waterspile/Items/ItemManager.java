@@ -17,7 +17,7 @@ public class ItemManager {
     }
 
     private static void createSpile(){
-        ItemStack item = new ItemStack(Material.STICK, 1);
+        ItemStack item = new ItemStack(Material.MUSIC_DISC_PIGSTEP, 1);
         ItemMeta meta = item.getItemMeta();
         meta.setDisplayName("§6Water Spile");
         List<String> loreStrings = new ArrayList<String>();
